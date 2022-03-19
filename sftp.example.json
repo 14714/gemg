@@ -1,0 +1,26 @@
+[
+    {
+        "name": "PROJECT",
+        "context": "/laragon/www/PROJECT/",
+        "host": "",
+        "protocol": "ftp",
+        "port": 21,
+        "username": "",
+        "password": "",
+        "remotePath": "/PROJECT/",
+        "uploadOnSave": true,
+        "ignore": [".vscode", ".git", ".DS_Store", ".env"]
+    },
+    {
+        "name": "PROJECT-public",
+        "context": "/laragon/www/PROJECT/public",
+        "host": "",
+        "protocol": "ftp",
+        "port": 21,
+        "username": "",
+        "password": "",
+        "remotePath": "/public_html/",
+        "uploadOnSave": true,
+        "ignore": [".vscode", ".git", ".DS_Store", "index.php", ".env"]
+    }
+]
